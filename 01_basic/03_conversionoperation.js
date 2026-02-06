@@ -1,5 +1,6 @@
-let score = "33"
 
+let score = "33"
+/*
 //manytimes we dont know what is datatype as we get it fro,m backend or etc form
 console.log(typeof score)
 
@@ -24,8 +25,8 @@ console.log(typeof booleanIsLoggedIn)   //boolean
 console.log(booleanIsLoggedIn)     //true
 
 /*so while boolean conversion if 1=>true and 0 =>false
-"yagya"==> 1 and empty string ==> 0   */
-
+"yagya"==> 1 and empty string ==> 0 */
+/*
 //STRING
 let someNumber = 72
 let someBool = true
@@ -34,6 +35,54 @@ let someString = String(someNumber)
 let someBoolString = String(someBool)
 console.log(someString)   //72 and typeof-->string
 console.log(someBoolString)  //true and typeof ---> string
+*/
+
+
+//******************OPERAtions********************* */
+let value = 7
+let negValue = -value
+console.log(negValue)
+console.log(28 + 23)
+console.log(3 ** 7);   // 3^7
+console.log(2 / 3)  // quotient with decimals
+console.log(45 % 7)  // remainder
+
+let str1 = "Yagya"
+let str2 = " Parasar"
+let str3 = str1 + str2
+console.log(str3)   // Yagya Parasar
+console.log(str1 + str2);   // Yagya Parasar
+
+console.log("1" + 2 + 2)  //122
+console.log(1 + "2" + 2)  //122
+console.log(1 + 2 + "2");   //32
+
+console.log(true)  //true
+console.log(+true)  //1  & log(true+) gives error
+console.log(+"");  //0  since empty string is false :)
+
+
+
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2  //correct but NOT GOOD WAY
+
+let numbo = 100
+numbo++
+++numbo
+console.log(numbo)  //102
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
