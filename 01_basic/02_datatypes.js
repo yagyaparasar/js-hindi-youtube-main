@@ -20,7 +20,7 @@ big int
 string
 boolean
 null ==> standalone value or representation of empty / khali
-undefined ==> abhi value assign nhi hui hai
+undefined ==> abhi value assign nhi hui hai(variable & memory space declared hai but konsi type jayegi usme not decided yet)
 symbol ===>used for uniqueness...mostly used in react
 
 object==>vvimp
