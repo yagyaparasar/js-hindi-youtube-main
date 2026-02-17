@@ -86,6 +86,45 @@ console.log(Object.keys(tinderUser).length)//3  // Object.keys(tinderUser) → r
 
 
 
+//************************************DESTRUCTURING********************************
+
+const course = {
+    name: "js in hindi",
+    price: "999",
+    courseInstructor: "Tushita"
+}
+//to avoid redundancy we use this method accessing:-
+const { courseInstructor } = course
+console.log(courseInstructor)    //Tushita
+
+//to change name
+const { courseInstructor: abc } = course
+console.log(abc)     //Tushita
+
+
+
+
+//**********API******************** */
+
+//values come from backend and it comes in JSON
+//json looks like object only
+//it has both key & values in string
+/*{
+    name: "abc",
+        coursename: "js in hindi",
+
+}
+        */
+
+//sometimes we get api in array of objects format
+
+//LEARN JSON FORMATTER
+
+
+
+
+
+
 
 
 
