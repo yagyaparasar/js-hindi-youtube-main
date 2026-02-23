@@ -1,3 +1,4 @@
+//LECTURE 21 : SCOPES_01
 //let , var , const
 
 //{} -----> yhi scope hai when used/associated with function or if-else
