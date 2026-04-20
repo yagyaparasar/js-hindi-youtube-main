@@ -30,3 +30,4 @@ console.log(`outer/global value is ${abba}`)    //300
 
 
 //NOTE: IN BROWSER INSPECT OPTION THE SCOPE VS THE SCOPE IN CODE ENVIRONMENT I.E. THROUGH NODE THE SCOPE S DIFFERENT
+//testing 123 
